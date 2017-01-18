@@ -5,9 +5,9 @@ module Hyrax
         @work = work
       end
 
-      # @return [String] The name of the workflow to use
-      def workflow_name
-        'default'
+      # @return [String] The id of the workflow to use
+      def workflow_id
+        1
       end
     end
   end
